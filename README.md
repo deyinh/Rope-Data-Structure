@@ -6,13 +6,6 @@ This Python project implements the Rope data structure, which is capable of effi
 ## Problem Statement
 The Rope data structure is designed to store a string and efficiently cut a part (a substring) of that string and insert it into a different position. This capability makes the Rope data structure an excellent choice for text editors that need to handle persistent versions of text.
 
-## Usage
-The script reads from standard input (stdin), which should provide the initial string followed by a number of queries. Each query consists of three integers `i`, `j`, and `k` indicating the operation to be performed on the string.
-
-To run the script, use the following command in the terminal:
-cat input.txt | python3 rope.py
-Where `input.txt` contains the initial string on the first line and the subsequent lines contain the queries.
-
 ## Input Format
 - The first line contains the initial string `S`.
 - The second line contains the number of queries `q`.
